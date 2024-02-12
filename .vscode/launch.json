@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Crawl with scrapy",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scrapy",
+            "cwd": "${fileDirname}",
+            "args": [
+                "crawl",
+                "wiki_films"
+            ],
+            "console": "internalConsole",
+            "justMyCode": false
+        }
+    ]
+}
